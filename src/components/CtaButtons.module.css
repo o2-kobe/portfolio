@@ -1,0 +1,24 @@
+.cta {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.cta button {
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+.cta a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.learn {
+  color: #fff;
+  background-color: var(--button-color);
+  transition: all 0.3s;
+}
+
+.learn:hover {
+  background-color: var(--button-hover-color);
+}

@@ -1,0 +1,28 @@
+.skillitem {
+  padding: 2rem;
+  border: 0.8px solid var(--button-color);
+  transition: all 0.3s;
+  /* background-color: red; */
+}
+
+.skillitem:hover {
+  cursor: pointer;
+  transform: translateY(1px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.skillitem h3 {
+  font-size: 2rem;
+}
+
+.skillitem p {
+  font-size: 1.6rem;
+}
+
+.svg {
+  width: 5.2rem;
+  height: 5.2rem;
+  display: inline-block;
+
+  /* text-align: center; */
+}

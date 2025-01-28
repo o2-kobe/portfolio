@@ -1,0 +1,34 @@
+.connect {
+  max-width: 115rem;
+  margin: 0 auto 10rem auto;
+  text-align: center;
+  padding: 1.2rem;
+  border: 1px solid var(--button-color);
+  /* width: 100%; */
+
+  align-content: center;
+
+  scroll-margin-top: 100px;
+}
+
+.connect span {
+  display: block;
+}
+
+.connect h3 {
+  font-size: 3.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.connect p {
+  margin-bottom: 1.2rem;
+}
+
+.tele {
+  display: inline-block;
+  padding: 1.2rem;
+  color: #fff;
+  border: 1px solid #000;
+  background-color: var(--button-color);
+  border-radius: 2rem;
+}

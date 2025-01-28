@@ -1,0 +1,19 @@
+.icons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.icons span {
+  transition: all 0.8s;
+}
+
+.icons span:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  width: 5.2rem;
+  height: 5.2rem;
+}

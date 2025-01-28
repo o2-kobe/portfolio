@@ -1,0 +1,30 @@
+.header {
+  max-width: 110rem;
+  margin: 12rem auto 10rem auto;
+}
+
+.header span {
+  display: block;
+}
+
+.header h1 {
+  font-size: 5.2rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+/* .header h1 span:nth-of-type(2) {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+} */
+
+.header p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,44 @@
+.links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.links li:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  display: none;
+  font-size: 3.2rem;
+  cursor: pointer;
+  padding: 1.2rem;
+}
+
+@media (max-width: 468px) {
+  .links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: -3px;
+    background-color: rgba(255, 255, 255, 0.945);
+    backdrop-filter: blur(40px);
+    color: #333;
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .links.active {
+    display: flex;
+  }
+
+  .menu {
+    display: block;
+  }
+}
