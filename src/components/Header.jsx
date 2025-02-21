@@ -1,10 +1,9 @@
-import { forwardRef } from "react";
 import CtaButtons from "./CtaButtons";
 import styles from "./Header.module.css";
 
-function Header(props, ref) {
+function Header() {
   return (
-    <header className={styles.header} ref={ref}>
+    <header className={styles.header} id="header">
       <h1>
         <span>Transforming Visions Into</span>
         <span>Seamless, High-Performing Web Experiences</span>
@@ -25,8 +24,4 @@ function Header(props, ref) {
   );
 }
 
-// Header.propTypes = {
-//   ref: PropTypes.object,
-// };
-
-export default forwardRef(Header);
+export default Header;

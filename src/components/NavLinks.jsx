@@ -1,18 +1,6 @@
 import styles from "./NavLinks.module.css";
-import { useNavRefs } from "../contexts/useNavRefs";
+
 import { useState } from "react";
-
-function scrollToSection(ref, offset = 0) {
-  if (ref.current) {
-    ref.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
-    });
-
-    window.scrollBy(0, -offset);
-  }
-}
 
 function NavLinks() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +9,6 @@ function NavLinks() {
     setIsOpen((open) => !open);
   }
 
-  const { homeRef, skillsRef, projectsRef, connectRef } = useNavRefs();
   return (
     <nav>
       <div className={styles.menu} onClick={toggleMenu}>
@@ -32,34 +19,30 @@ function NavLinks() {
         <li
           onClick={() => {
             toggleMenu();
-            scrollToSection(homeRef, 100);
           }}
         >
-          Home
+          <a href="#header">Home</a>
         </li>
         <li
           onClick={() => {
             toggleMenu();
-            scrollToSection(skillsRef, 100);
           }}
         >
-          Skills
+          <a href="#skills">Skills</a>
         </li>
         <li
           onClick={() => {
             toggleMenu();
-            scrollToSection(projectsRef, 100);
           }}
         >
-          Projects
+          <a href="#projects">Projects</a>
         </li>
         <li
           onClick={() => {
             toggleMenu();
-            scrollToSection(connectRef, 100);
           }}
         >
-          Connect
+          <a href="#connect">Connect</a>
         </li>
       </ul>
     </nav>

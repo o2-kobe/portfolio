@@ -1,11 +1,10 @@
 import styles from "./Projects.module.css";
 import projects from "../data/ProjectData";
 import ProjectItem from "./ProjectItem";
-import { forwardRef } from "react";
 
-function Projects(props, ref) {
+function Projects() {
   return (
-    <div className={styles.projects} ref={ref}>
+    <div className={styles.projects} id="projects">
       <div>
         <h5>Portfolio</h5>
         <h3>My Recent Projects</h3>
@@ -21,4 +20,4 @@ function Projects(props, ref) {
   );
 }
 
-export default forwardRef(Projects);
+export default Projects;

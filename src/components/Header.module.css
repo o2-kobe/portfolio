@@ -1,6 +1,8 @@
 .header {
   max-width: 110rem;
   margin: 12rem auto 10rem auto;
+
+  scroll-margin-top: 100px;
 }
 
 .header span {

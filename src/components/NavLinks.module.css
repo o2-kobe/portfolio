@@ -12,6 +12,11 @@
   text-decoration: underline;
 }
 
+.links a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .menu {
   display: none;
   font-size: 3.2rem;

@@ -1,10 +1,9 @@
 import ConnectLinks from "./ConnectLinks";
 import styles from "./Connect.module.css";
-import { forwardRef } from "react";
 
-function Connect(props, ref) {
+function Connect() {
   return (
-    <div className={styles.connect} ref={ref} id="connect">
+    <div className={styles.connect} id="connect">
       <h3>
         <span>Let us Collaborate on Your</span>
         <span>Project</span>
@@ -25,4 +24,4 @@ function Connect(props, ref) {
   );
 }
 
-export default forwardRef(Connect);
+export default Connect;

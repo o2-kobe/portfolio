@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-import { RefsProvider } from "./contexts/RefContexts";
 import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
@@ -26,7 +25,7 @@ function App() {
     },
   };
   return (
-    <RefsProvider>
+    <div>
       <Navbar />
       <motion.div
         initial="hidden"
@@ -38,7 +37,7 @@ function App() {
         <MainContent />
         <Footer />
       </motion.div>
-    </RefsProvider>
+    </div>
   );
 }
 

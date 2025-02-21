@@ -1,11 +1,10 @@
 import styles from "./Skills.module.css";
 import SkillItem from "./SkillItem";
 import data from "../data/SkillsData";
-import { forwardRef } from "react";
 
-function Skills(props, ref) {
+function Skills() {
   return (
-    <div className={styles.skills} ref={ref} id="skills">
+    <div className={styles.skills} id="skills">
       <h2>
         <span>Explore My Key Skills and</span>
         <span>Technologies</span>{" "}
@@ -20,4 +19,4 @@ function Skills(props, ref) {
   );
 }
 
-export default forwardRef(Skills);
+export default Skills;
