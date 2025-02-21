@@ -4,4 +4,6 @@
   font-size: 2.4rem;
   font-weight: 700;
   padding: 1.2rem 1.6rem;
+  color: var(--button-color);
+  text-decoration: none;
 }
