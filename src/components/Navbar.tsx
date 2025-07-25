@@ -14,7 +14,9 @@ const Navbar = () => {
             alt="myself"
             className="w-7 h-7 rounded-full"
           />
-          <h3>Laud Tetteh</h3>
+          <h3>
+            <a href="#Hero">Laud Tetteh</a>
+          </h3>
         </div>
 
         <div>
@@ -28,7 +30,7 @@ const Navbar = () => {
                 }
                 key={link.id}
               >
-                {link.title}
+                <a href={`#${link.title}`}>{link.title}</a>
               </li>
             ))}
           </ul>

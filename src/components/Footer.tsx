@@ -7,7 +7,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-black p-15 border  ">
+    <footer className="bg-black p-15 border scroll-mt-[150px]" id="Contact">
       <div className="text-6xl font-semibold mb-9">
         <h3 className="text-white">Let&apos;s build</h3>
         <h3 className="text-[#9b9b9b]">incredible work together.</h3>
@@ -56,7 +56,7 @@ const Footer = () => {
         <p>Based in Accra, Ghana </p>
         <p>&copy;2025 Laud Tetteh</p>
       </div>
-    </div>
+    </footer>
   );
 };
 export default Footer;
