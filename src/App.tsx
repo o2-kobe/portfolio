@@ -1,4 +1,5 @@
 import AppLayout from "./components/AppLayout";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -10,9 +11,12 @@ const App = () => {
       <AppLayout>
         <Navbar />
         <Hero />
+        <hr className="text-gray-200 my-25 " />
         <Skills />
+        <hr className="text-gray-200 my-25 " />
         <Projects />
       </AppLayout>
+      <Footer />
     </div>
   );
 };
