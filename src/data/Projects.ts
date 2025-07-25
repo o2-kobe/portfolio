@@ -16,7 +16,7 @@ export default [
   {
     id: 3,
     title: "Totsx",
-    image: "totsx-landing.png",
+    image: "event6.png",
     link: "",
     summary: "A web app to help react devs switch from js to ts with react",
   },

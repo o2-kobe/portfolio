@@ -1,22 +1,30 @@
+import { motion } from "framer-motion";
 import projectList from "./../data/Projects";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="mb-25">
-      <h2 className="text-2xl font-bold mb-4">My Projects</h2>
-      <div className="grid grid-cols-2 gap-5">
-        {projectList.map((project) => (
-          <ProjectCard
-            key={project.id}
-            image={project?.image}
-            title={project.title}
-            summary={project.summary}
-            link={project.link}
-          />
-        ))}
-      </div>
-    </section>
+    <motion.div
+      initial={{ opacity: 0, y: 60 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+    >
+      <section className="mb-25">
+        <h2 className="text-2xl font-bold mb-4">My Projects</h2>
+        <div className="grid grid-cols-2 gap-5">
+          {projectList.map((project) => (
+            <ProjectCard
+              key={project.id}
+              image={project?.image}
+              title={project.title}
+              summary={project.summary}
+              link={project.link}
+            />
+          ))}
+        </div>
+      </section>
+    </motion.div>
   );
 };
 export default Projects;

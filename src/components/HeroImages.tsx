@@ -6,7 +6,7 @@ const HeroImages = () => {
           className="absolute w-full h-[90%] rounded-xl shadow-lg overflow-hidden
                 transform rotate-12 z-10"
         >
-          <img className="min-h-full" src="event4.png" alt="event app" />
+          <img className="min-h-full" src="event3.png" alt="event app" />
         </div>
 
         <div
@@ -17,7 +17,7 @@ const HeroImages = () => {
         </div>
 
         <div
-          className="absolute w-full h-[90%] rounded-xl shadow-2xl rotate-24 z-30
+          className="absolute w-full h-[80%] rounded-xl shadow-2xl rotate-24 z-30
                 overflow-hidden"
         >
           <img className="min-h-full" src="event7.png" alt="event app" />
