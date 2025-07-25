@@ -6,7 +6,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="py-2 px-5 rounded-4xl border bg-transparent border-gray-300 shadow-md w-[50%] mx-auto mt-6">
+    <nav className="py-2 px-5 rounded-4xl border bg-white/20 backdrop-blur-lg  border-gray-300 shadow-md w-[50%] mx-auto mt-7 top-0 left-[25%] z-50 fixed">
       <div className="flex justify-between text-center items-center font-medium ">
         <div className="flex items-center gap-1 cursor-pointer">
           <img
