@@ -1,9 +1,9 @@
 const CtaButton = () => {
   return (
-    <div className="px-4 py-2 rounded-full bg-black text-white flex items-center gap-2 w-fit mt-3 cursor-pointer">
+    <button className="px-5 py-1.5 rounded-full bg-black text-white flex items-center gap-3 w-fit mt-5 cursor-pointer ">
       <img src="person.webp" alt="myself" className="w-7 h-7 rounded-full" />
-      <button className="font-semibold">Let&apos;s build</button>
-    </div>
+      <p className="font-semibold ">Get in touch</p>
+    </button>
   );
 };
 export default CtaButton;

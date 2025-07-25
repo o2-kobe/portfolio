@@ -2,7 +2,7 @@ import CtaButton from "./ctaButton";
 
 const HeroText = () => {
   return (
-    <div className="ml-4">
+    <div>
       <div className="text-7xl font-semibold mb-4">
         <h1 className="text-[#818181]">Code that</h1>
         <h1>delivers results.</h1>

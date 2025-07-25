@@ -6,9 +6,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="py-2 px-5 rounded-4xl border border-gray-300 shadow-md w-[50%] mx-auto mt-6">
-      <div className="flex justify-between text-center items-center font-medium cursor-pointer">
-        <div className="flex items-center gap-1">
+    <nav className="py-2 px-5 rounded-4xl border bg-transparent border-gray-300 shadow-md w-[50%] mx-auto mt-6">
+      <div className="flex justify-between text-center items-center font-medium ">
+        <div className="flex items-center gap-1 cursor-pointer">
           <img
             src="person.webp"
             alt="myself"
@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <ul className="flex gap-3 items-center">
+          <ul className="flex gap-3 items-center cursor-pointer">
             {navLinks.map((link) => (
               <li
                 className={
