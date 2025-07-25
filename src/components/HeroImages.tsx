@@ -17,7 +17,7 @@ const HeroImages = () => {
         </div>
 
         <div
-          className="absolute w-full h-[80%] rounded-xl shadow-2xl rotate-24 z-30
+          className="absolute w-full h-[80%] rounded-xl shadow-2xl rotate-20 z-30
                 overflow-hidden"
         >
           <img className="min-h-full" src="event7.png" alt="event app" />

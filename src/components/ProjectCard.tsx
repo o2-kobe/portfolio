@@ -33,7 +33,9 @@ const ProjectCard = ({ image, title, summary, link }: ProjectCardProps) => {
         <h5 className="text-white text-4xl font-bold">{title}</h5>
         <p className="font-semibold text-sm text-white">{summary}</p>
         <button className="text-2xl cursor-pointer font-semibold px-3 py-1 ml-auto bg-white rounded-full">
-          <a href={link}>View Project</a>
+          <a href={link}>
+            View Project <span>&#8599;</span>
+          </a>
         </button>
       </div>
     </div>
