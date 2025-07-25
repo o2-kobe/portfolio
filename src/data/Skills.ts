@@ -31,32 +31,32 @@ export const skills = [
   { id: 4, skill: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { id: 5, skill: "React", icon: DiReact, color: "#61DAFB" },
   { id: 6, skill: "Next.js", icon: SiNextdotjs, color: "#000000" },
-  { id: 10, skill: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-  { id: 13, skill: "Redux", icon: SiRedux, color: "#764ABC" },
-  { id: 16, skill: "Vite", icon: SiVite, color: "#56e7ab" },
+  { id: 11, skill: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+  { id: 12, skill: "Redux", icon: SiRedux, color: "#764ABC" },
+  { id: 13, skill: "Vite", icon: SiVite, color: "#56e7ab" },
 
   // Backend
-  { id: 17, skill: "Node.js", icon: DiNodejs, color: "#339933" },
-  { id: 18, skill: "Express", icon: SiExpress, color: "#000000" },
+  { id: 14, skill: "Node.js", icon: DiNodejs, color: "#339933" },
+  { id: 15, skill: "Express", icon: SiExpress, color: "#000000" },
   // Databases
 
-  { id: 26, skill: "MongoDB", icon: DiMongodb, color: "#47A248" },
+  { id: 16, skill: "MongoDB", icon: DiMongodb, color: "#47A248" },
   // { id: 29, skill: "Firebase", icon: SiFirebase, color: "#FFCA28" },
 
   // DevOps, Tooling & Cloud
-  { id: 32, skill: "Git", icon: DiGit, color: "#F05032" },
-  { id: 33, skill: "GitHub", icon: FaGithub, color: "#181717" },
-  { id: 38, skill: "Vercel", icon: SiVercel, color: "#000000" },
-  { id: 41, skill: "Postman", icon: SiPostman, color: "#FF6C37" },
+  { id: 17, skill: "Git", icon: DiGit, color: "#F05032" },
+  { id: 18, skill: "GitHub", icon: FaGithub, color: "#181717" },
+  { id: 19, skill: "Vercel", icon: SiVercel, color: "#000000" },
+  { id: 20, skill: "Postman", icon: SiPostman, color: "#FF6C37" },
 
   // Testing & Design
-  { id: 42, skill: "Jest", icon: SiJest, color: "#C21325" },
+  { id: 21, skill: "Jest", icon: SiJest, color: "#C21325" },
 
   {
-    id: 44,
+    id: 22,
     skill: "Testing Library",
     icon: SiTestinglibrary,
     color: "#E33332",
   },
-  { id: 46, skill: "Figma", icon: FaFigma, color: "#F24E1E" },
+  { id: 23, skill: "Figma", icon: FaFigma, color: "#F24E1E" },
 ];
