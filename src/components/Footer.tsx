@@ -13,7 +13,7 @@ const Footer = () => {
         <h3 className="text-[#9b9b9b]">incredible work together.</h3>
       </div>
 
-      <div className="flex items-center justify-between text-white">
+      <div className="flex flex-col items-center md:flex-row md:justify-between gap-6 text-white">
         <div>
           <h6 className="text-[#9b9b9b] text-sm">Email</h6>
           <a href="mailto:kobbykurtx@gmail.com" className="text-white">

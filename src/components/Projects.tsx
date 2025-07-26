@@ -11,8 +11,8 @@ const Projects = () => {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <section className="mb-25 scroll-mt-[150px]" id="Projects">
-        <h2 className="text-2xl font-bold mb-4">My Projects</h2>
-        <div className="grid grid-cols-2 gap-5">
+        <h2 className="text-2xl font-bold mb-6">My Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {projectList.map((project) => (
             <ProjectCard
               key={project.id}

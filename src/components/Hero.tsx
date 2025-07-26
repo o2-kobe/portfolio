@@ -10,7 +10,7 @@ const Hero = () => {
       viewport={{ once: false, amount: 0.3 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      <div className="grid grid-cols-2 mt-45 scroll-mt-[200px]" id="Hero">
+      <div className="md:grid md:grid-cols-2 mt-45 scroll-mt-[200px]" id="Hero">
         <HeroText />
         <HeroImages />
       </div>
