@@ -52,7 +52,7 @@ const Footer = () => {
 
       <hr className="text-white my-6" />
 
-      <div className="text-[#9b9b9b] flex justify-between items-center text-sm">
+      <div className="text-[#9b9b9b] flex justify-between items-center text-xs md:text-sm">
         <p>Based in Accra, Ghana </p>
         <p>&copy;2025 Laud Tetteh</p>
       </div>
