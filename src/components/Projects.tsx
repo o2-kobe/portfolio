@@ -20,6 +20,7 @@ const Projects = () => {
               title={project.title}
               summary={project.summary}
               link={project.link}
+              stacks={project.stacks}
             />
           ))}
         </div>

@@ -1,11 +1,20 @@
+import type { IconType } from "react-icons";
+
 interface ProjectCardProps {
   image: string | undefined;
   title: string;
   summary: string;
   link: string;
+  stacks: IconType[];
 }
 
-const ProjectCard = ({ image, title, summary, link }: ProjectCardProps) => {
+const ProjectCard = ({
+  image,
+  title,
+  summary,
+  link,
+  stacks,
+}: ProjectCardProps) => {
   return (
     <div
       className="
@@ -32,8 +41,15 @@ const ProjectCard = ({ image, title, summary, link }: ProjectCardProps) => {
       >
         <h5 className="text-white text-4xl font-bold">{title}</h5>
         <p className="font-semibold text-sm text-white">{summary}</p>
+        <div className="flex gap-3 text-white items-center">
+          {stacks.map((StackIcon, idx) => (
+            <span key={idx}>
+              <StackIcon size={30} />
+            </span>
+          ))}
+        </div>
         <button className="text-2xl cursor-pointer font-semibold px-3 py-1 ml-auto bg-white rounded-full">
-          <a href={link}>
+          <a href={link} target="_blank" rel="noopener noreferrer">
             View Project <span>&#8599;</span>
           </a>
         </button>

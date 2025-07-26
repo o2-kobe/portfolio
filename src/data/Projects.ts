@@ -1,23 +1,38 @@
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiFirebase,
+  SiExpress,
+} from "react-icons/si";
+import { DiMongodb, DiReact } from "react-icons/di";
+
 export default [
   {
     id: 1,
     title: "Totsx",
     image: "totsx-landing.png",
     link: "",
-    summary: "A web app to help react devs switch from js to ts with react",
+    stacks: [SiTypescript, SiNextdotjs, SiTailwindcss, SiExpress, DiMongodb],
+    summary:
+      "A web app designed to help React developers seamlessly transition from JavaScript to TypeScript",
   },
   {
     id: 2,
     title: "EventGctu",
     image: "event1.png",
-    link: "",
-    summary: "A web app to help react devs switch from js to ts with react",
+    link: "https://eventgctu.vercel.app/",
+    stacks: [SiTypescript, SiFirebase, SiNextdotjs, SiTailwindcss],
+    summary:
+      "A unified platform for managing and discovering all school events in one place",
   },
   {
     id: 3,
-    title: "Totsx",
+    title: "Student Information System",
     image: "event6.png",
     link: "",
-    summary: "A web app to help react devs switch from js to ts with react",
+    stacks: [SiTypescript, DiReact, SiTailwindcss],
+    summary:
+      "A platform that allows school admins to manage students, courses, and departments",
   },
 ];
