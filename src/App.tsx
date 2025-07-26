@@ -7,9 +7,9 @@ import Skills from "./components/Skills";
 
 const App = () => {
   return (
-    <div>
+    <div className="relative">
+      <Navbar />
       <AppLayout>
-        <Navbar />
         <Hero />
         <hr className="text-gray-200 my-25 " />
         <Skills />

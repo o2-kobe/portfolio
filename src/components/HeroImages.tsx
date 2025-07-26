@@ -1,6 +1,6 @@
 const HeroImages = () => {
   return (
-    <div className="hidden md:block relative flex items-center justify-center">
+    <div className="hidden md:flex relative items-center justify-center">
       <div className="relative w-[80%] max-w-lg h-80">
         <div
           className="absolute w-full h-[90%] rounded-xl shadow-lg overflow-hidden
