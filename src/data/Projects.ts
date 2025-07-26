@@ -20,7 +20,7 @@ export default [
   {
     id: 2,
     title: "EventGctu",
-    image: "event1.png",
+    image: "event3.png",
     link: "https://eventgctu.vercel.app/",
     stacks: [SiTypescript, SiFirebase, SiNextdotjs, SiTailwindcss],
     summary:
