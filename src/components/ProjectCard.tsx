@@ -26,7 +26,7 @@ const ProjectCard = ({
       "
     >
       <img
-        className="rounded-[12px] w-full h-auto object-cover" // Added h-auto object-cover for better image handling
+        className="rounded-[12px] w-full h-auto object-cover"
         alt={title}
         src={image}
       />

@@ -11,9 +11,9 @@ const App = () => {
       <Navbar />
       <AppLayout>
         <Hero />
-        <hr className="text-gray-200 my-25 " />
+        <hr className="text-gray-200 my-20 md:my-25 " />
         <Skills />
-        <hr className="text-gray-200 my-25 " />
+        <hr className="text-gray-200 my-20 md:my-25 " />
         <Projects />
       </AppLayout>
       <Footer />
