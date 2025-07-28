@@ -11,7 +11,7 @@ export default [
   {
     id: 1,
     title: "Totsx",
-    image: "totsx-landing.png",
+    image: "totsx-landing.webp",
     link: "",
     stacks: [SiTypescript, SiNextdotjs, SiTailwindcss, SiExpress, DiMongodb],
     summary:
@@ -20,7 +20,7 @@ export default [
   {
     id: 2,
     title: "EventGctu",
-    image: "event3.png",
+    image: "event3.webp",
     link: "https://eventgctu.vercel.app/",
     stacks: [SiTypescript, SiFirebase, SiNextdotjs, SiTailwindcss],
     summary:
@@ -29,7 +29,7 @@ export default [
   {
     id: 3,
     title: "Student Information System",
-    image: "event6.png",
+    image: "event7.webp",
     link: "",
     stacks: [SiTypescript, DiReact, SiTailwindcss],
     summary:

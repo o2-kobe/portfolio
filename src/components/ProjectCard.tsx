@@ -1,4 +1,5 @@
 import type { IconType } from "react-icons";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 interface ProjectCardProps {
   image: string | undefined;
@@ -25,7 +26,7 @@ const ProjectCard = ({
         group
       "
     >
-      <img
+      <LazyLoadImage
         className="rounded-[12px] w-full h-auto object-cover"
         alt={title}
         src={image}

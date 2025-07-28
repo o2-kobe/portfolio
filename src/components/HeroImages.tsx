@@ -10,7 +10,7 @@ const HeroImages = () => {
         >
           <LazyLoadImage
             className="min-h-full"
-            src="event3.png"
+            src="event3.webp"
             alt="event app"
           />
         </div>
@@ -21,7 +21,7 @@ const HeroImages = () => {
         >
           <LazyLoadImage
             className="min-h-full"
-            src="totsx-landing.png"
+            src="totsx-landing.webp"
             alt="event app"
           />
         </div>
@@ -32,7 +32,7 @@ const HeroImages = () => {
         >
           <LazyLoadImage
             className="min-h-full"
-            src="event7.png"
+            src="event7.webp"
             alt="event app"
           />
         </div>
